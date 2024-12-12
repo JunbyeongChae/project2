@@ -11,11 +11,12 @@
 
 - **기능 설명:**
   - 사용자는 이메일과 비밀번호로 회원가입 및 로그인 가능.
-  - 소셜 로그인(Kakao, Naver) 지원.
+  - 소셜 로그인(Google) 지원.
 - **기술 스택:**
   - 프론트엔드: HTML, CSS, JavaScript
   - 백엔드: Node.js
-  - API: 소셜 로그인 API(Kakao, Naver, Google)
+  - API: 소셜 로그인 API(Google)
+  - DB : firebase
 
 ### 2.2 맛집 검색
 
@@ -23,7 +24,7 @@
   - 사용자는 키워드, 위치 기반 맛집 검색 가능.
   - 사용자 리뷰 및 평점 보기.
 - **기술 스택:**
-  - Kakao Maps API, Naver Place API, Google Places API
+  - Kakao Maps API, Naver Place API
   - 프론트엔드: JavaScript (지도와 검색 결과 UI 구현)
   - 백엔드: Node.js (검색 요청 처리)
 
